@@ -1,0 +1,302 @@
+*{
+    font-family: 'Roboto';
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+/*Partie HEADER*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh;
+    background-color: white;
+    position:sticky;
+    top: 0;
+    z-index: 10;
+
+}
+
+header ul{
+    display: flex;
+    width: 400px;  
+    justify-content: space-between;
+      
+}
+
+header a{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.about_us{
+    color: aqua;
+}
+
+header li{
+    list-style: none;
+    
+    
+}
+
+header .titre{
+    display: flex;
+}
+
+#logo{
+    width: 50%;
+}
+
+/*Section MAIN */
+
+/*Partie SLOGAN*/
+
+.main .slogan h1{
+    color: aqua;
+    font-weight: bolder;
+}
+
+.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.slogan img{
+    width: 50px;
+    margin-bottom: 5vh;
+}
+
+/*Partie Fonction et articles*/
+
+.fonction {
+    display: flex;
+    margin-top: 3vh;
+}
+
+.fonction article p{
+    color: darkslategrey;
+}
+
+/*partie aside FOR avec 03 boites*/
+
+.green{
+    height: 40vh;
+    width: 40vh;
+    background-color: aqua;
+    border-radius: 10px 10px;
+    padding: 2vh;
+
+}
+
+.blue{
+    height: 40vh;
+    width: 40vh;
+    background-color:cornflowerblue;
+    border-radius: 10px 10px;
+    padding: 2vh;
+    
+}
+
+.marine{
+    height: 40vh;
+    width: 40vh;
+    background-color: rgb(34, 75, 253);
+    border-radius: 10px 10px;
+    padding: 2vh;
+    
+}
+
+.for{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.for h2,p,a{
+    color: white;
+}
+
+.choice{
+    display: flex;
+    flex-direction: column;   
+}
+
+/*partie Culture*/
+
+.culture{
+    display: flex;
+    align-items: center;
+}
+
+.culture h3{
+    font-size: 1.5rem;
+    color: rgb(2, 146, 146);
+}
+
+
+.culture a{
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+.culture a:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.culture li{
+    list-style: none;
+}
+
+.list-ul {
+    display: table-column;
+}
+
+.list-ul ul{
+    display: flex;
+}
+
+/*Partie SCORE*/
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.info h1{
+    color: rgb(0, 134, 134);
+    font-size: 2rem;
+}
+
+.info p{
+    color: rgb(51, 51, 51);
+}
+
+.info img{
+    width: 10em;
+}
+
+.scores{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.scores p{
+    color: black;
+    text-align: center;
+}
+
+.scores aside{
+    background-color: white;
+    margin-top: 10px;
+    width: 15em;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scores h3{
+    color: rgb(1, 167, 167);
+    text-align: center;
+}
+
+.best{
+    display: flex;
+    background-color: rgb(183, 250, 228);
+    padding: 20px;
+    transform: scalex(1.15);
+}
+
+/*Section des destinations*/
+
+.destinations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.destinations h1{
+    color: aqua;
+    text-align: center;
+}
+
+.destinations p {
+    color:rgb(82, 82, 82);
+    text-align: center;
+    margin: 0;
+
+}
+
+/*Partie des pays*/
+
+.pays{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.pays-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+
+button{
+    background-color: aqua;
+    border: none;
+    border-radius: 10px 10px;
+    color: white;
+
+}
+
+button:hover{
+    background-color: rgb(0, 133, 133);
+    cursor: pointer;
+}
+
+.button-join{
+    padding: 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+/*Partie FOOTER*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+footer p{
+    color: black;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+footer a{
+    color: blue;
+}
+
+
+
+
+
+
+
+
